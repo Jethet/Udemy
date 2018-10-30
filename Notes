@@ -23,3 +23,4 @@ clear plus enter:  to clear the command line
 JUPYTER NOTEBOOK
 
 Although it opens in a browser, no network connection is needed because the notebook is operating locally.
+Jupyter files do not have the .py extension but .ipynb.
