@@ -24,3 +24,12 @@ JUPYTER NOTEBOOK
 
 Although it opens in a browser, no network connection is needed because the notebook is operating locally.
 Jupyter files do not have the .py extension but .ipynb.
+
+With shift-enter you can run a cell (same as run button but quicker).
+Continue hitting enter and this will just give you more new lines.
+Shortcut keys are listed under Help.
+
+You cannot open the .ipynb file by double-clicking. You have to:
+1) launch Anaconda Navigator
+2) open the Jupyter Notebook
+3) open file in the list
