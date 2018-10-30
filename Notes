@@ -9,3 +9,11 @@ It is meant for student contact. Technical questions should go to the QA Forums.
 To submit issues to the QA Forums: give details of what you have tried and provide screenshot of code error.
 
 Problems with the Udemy platform: support@udemy.com
+
+WORKING WITH THE COMMAND LINE:
+
+pwd plus enter:  shows where you are located => your current directory
+ls plus enter:   shows a list of all files and folders in your current directory
+cd plus name folder plus enter:   to move you to a location
+cd .. :     to move back up to a directory (check with pwd: you will see the files and folders in that directory)
+clear plus enter:  to clear the command line
