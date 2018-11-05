@@ -35,5 +35,7 @@ You cannot open the .ipynb file by double-clicking. You have to:
 2) open the Jupyter Notebook
 3) open file in the list
 
+OR JUST TYPE jupyter notebook IN THE COMMAND LINE OF THE TERMINAL (no need to start up Anaconda)
+
 To delete variables in case of errors, you can restart under Kernel.
 It will restart the kernel which means you will have to run all cells again.
