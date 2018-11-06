@@ -39,3 +39,8 @@ OR JUST TYPE jupyter notebook IN THE COMMAND LINE OF THE TERMINAL (no need to st
 
 To delete variables in case of errors, you can restart under Kernel.
 It will restart the kernel which means you will have to run all cells again.
+
+Create a text file in Jupyter Notebook: %%writefile myfile.text  ('myfile' as file name) and
+below this, on the next line, start writing the text.
+
+
