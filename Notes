@@ -25,6 +25,7 @@ JUPYTER NOTEBOOK
 
 Although it opens in a browser, no network connection is needed because the notebook is operating locally.
 Jupyter files do not have the .py extension but .ipynb.
+To check where the JN is located, you can use pwd plus enter.
 
 With shift-enter you can run a cell (same as run button but quicker).
 Continue hitting enter and this will just give you more new lines.
@@ -39,3 +40,8 @@ OR JUST TYPE jupyter notebook IN THE COMMAND LINE OF THE TERMINAL (no need to st
 
 To delete variables in case of errors, you can restart under Kernel.
 It will restart the kernel which means you will have to run all cells again.
+
+Create a text file in Jupyter Notebook: %%writefile myfile.text  ('myfile' as file name) and
+below this, on the next line, start writing the text.
+
+
