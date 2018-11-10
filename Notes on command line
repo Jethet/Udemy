@@ -1,0 +1,8 @@
+WORKING WITH THE COMMAND LINE:
+
+pwd plus enter: shows where you are located => your current directory
+ls plus enter: shows a list of all files and folders in your current directory
+cd plus name folder plus enter: to move you to a location
+cd .. : to move back up to a directory (check with pwd: you will see the files and folders in that directory)
+clear plus enter: to clear the command line
+@Jethet
