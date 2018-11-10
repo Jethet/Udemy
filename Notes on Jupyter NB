@@ -1,0 +1,17 @@
+Although it opens in a browser, no network connection is needed because the notebook is operating locally.
+Jupyter files do not have the .py extension but .ipynb.
+
+With shift-enter you can run a cell (same as run button but quicker).
+If you do not use 'print' in case of strings, you will only get one line returned.
+Continue hitting enter and this will just give you more new lines.
+Shortcut keys are listed under Help.
+
+You cannot open the .ipynb file by double-clicking. You have to:
+
+    launch Anaconda Navigator
+    open the Jupyter Notebook
+    open file in the list
+
+To delete variables in case of errors, you can restart under Kernel.
+It will restart the kernel which means you will have to run all cells again.
+
