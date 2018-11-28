@@ -8,10 +8,13 @@ guess_int = randint(1, 100)
 guess_int = 24
 
 while True:
+    #the player is asked for a number
     guess = int(input("Please pick a number. "))
-    if guess_int + 10 < guess or guess_int - 10 < guess:
+    #if user guess is smaller than the random minus 10, print WARM!
+    if guess < guess_int - 10:
         print("WARM!")
-    
-        print("COLD!")
+    #elif guess_int + 10 > guess:
+        #print("COLD!")
     else:
-        print("Whatever")
+        print("YOU WON!")
+        break
