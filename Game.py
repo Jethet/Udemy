@@ -1,6 +1,17 @@
-#Import random module to use randint (creates random integer) to act as dice
+"""
+#Import random module to use randint (creates random integer)
 from random import randint
 
-#imitate roll of dice but only generating 0, 1 or 2
-roll = randint(0, 2)
-print(roll)
+#generate random integer between 1 and 100
+guess_int = randint(1, 100)
+"""
+guess_int = 24
+
+while True:
+    guess = int(input("Please pick a number. "))
+    if guess_int + 10 < guess or guess_int - 10 < guess:
+        print("WARM!")
+    
+        print("COLD!")
+    else:
+        print("Whatever")
