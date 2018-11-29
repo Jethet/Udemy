@@ -4,6 +4,12 @@ from random import randint
 #generate random integer between 1 and 100
 guess_int = randint(1, 100)
 
+print("Welcome to the game. You can enter a number between 1 and 100.\
+You will get one of these messages: 1) YOU WON! 2) WARM! 2) COLD!\
+Message 2 means you picked a number within 10 values below or above\
+the number you must guess. Message 3 means your guess is further away\
+from the solution. Have fun!")
+
 while True:
     try:
         #the player is asked for a number
