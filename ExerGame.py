@@ -4,11 +4,14 @@ from random import randint
 #generate random integer between 1 and 100
 guess_int = randint(1, 100)
 
-print("Welcome to the game. You can enter a number between 1 and 100. \
-You will get one of these messages: 1) YOU WON! 2) WARM! 2) COLD! \
-Message 2 means you picked a number within 10 values below or above \
-the number you must guess. Message 3 means your guess is further away \
-from the solution. You can stop anytime by typing 0.\nHave fun!")
+introduction = """Welcome to the game. You can enter a number between 1 and 100.
+You will get one of these messages: 1) YOU WON! 2) WARM! 2) COLD!
+Message 1 tells you you're the winner and the game ends.
+Message 2 tells you that you picked a number within 10 values below or
+above the number you must guess.
+Message 3 tells you your guess is further than 10 values away from the
+solution. You can stop anytime by typing 0. Have fun!"""
+print(introduction)
 
 while True:
     try:
