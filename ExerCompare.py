@@ -1,4 +1,5 @@
-#Compare two values: if two values are even, return smallest; if odd, return biggest.
+#Compare two values: if two values are even, return smallest;
+#if odd, return biggest.
 
 def compare(x, y):
     try:
@@ -6,7 +7,8 @@ def compare(x, y):
             print(min(x, y))
         else:
             print(max(x, y))
-    #the exception is meant to prevent raising an error in case of characters
+    #the exception is meant to prevent raising an error in case
+    #  characters are entered instead of numbers
     except Exception as e:
         print("Please enter numbers only.", e)
 
