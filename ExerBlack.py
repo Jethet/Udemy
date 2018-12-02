@@ -14,3 +14,4 @@ def blackjack(x, y, z):
 
 print(blackjack(5, 7, 9))
 print(blackjack(15, 6, 18))
+print(blackjack(9, 9, 9))
