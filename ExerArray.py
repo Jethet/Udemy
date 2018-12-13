@@ -1,5 +1,5 @@
 #Given a list of ints, return True if the array contains
-#  a 3 next to a 3 somewhere.
+#  a 3 next to a 3 somewhere
 
 def has_3(nums):
     if 33 in nums or [3, 3] in nums:
