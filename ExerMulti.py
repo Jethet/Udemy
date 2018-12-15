@@ -3,7 +3,7 @@
 def multiply(numbers):
     total = 1
     for num in numbers:
-        total *= numbers[num]
+        total *= num
     return total
 # return ends the loop so should be aligned with for (at the end of function),
 # otherwise you only get the first iteration of the loop returned.
