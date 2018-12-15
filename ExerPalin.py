@@ -3,8 +3,8 @@
 
 def palindrome(s):
     if s == s[::-1]:
-        print(s)
+        return s
 
-palindrome('madam')
-palindrome('truth')
-palindrome('reder')
+print(palindrome('madam'))
+print(palindrome('truth'))
+print(palindrome('reder'))
