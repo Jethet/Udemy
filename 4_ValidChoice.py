@@ -13,8 +13,12 @@ for choice in board:
     print(*board, sep='')
 
 
+"""
+adict.update({key : value})  adds a key and value to dictionary
+adict[key] = value		also adds a key and value
+del adict[key]			removes key from the dictionary
 
-
+"""
 """
 board = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 choice = int(input("Which square do you choose? "))
