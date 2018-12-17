@@ -5,23 +5,20 @@
 Player uses X or O
 """
 
-board = {'1':'1 |', '2':' 2 |', '3':' 3\n', '4':'4 |', '5':' 5 |',
-        '6':' 6\n', '7':'7 |', '8':' 8 |', '0':' 9\n'}
-print(str(board.values()))
-"""
-for choice in board:
-    choice = int(input("What square do you choose? "))
-    board[choice] = 'X'
-    board.remove(choice)
-    print(*board, sep='')
+def choice_board():
+    square = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    choice = int(input("Which square do you choose? "))
+    if choice in square:
+        square[choice] = 'X'
+        square.remove(choice)
+        print(*square, sep='')
 
-"""
-"""
-adict.update({key : value})  adds a key and value to dictionary
-adict[key] = value		also adds a key and value
-del adict[key]			removes key from the dictionary
 
-"""
+    else:
+        print("This is not a valid choice.")
+
+
+
 """
 board = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 choice = int(input("Which square do you choose? "))
