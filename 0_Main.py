@@ -15,6 +15,5 @@ create_board()
 #If player makes choice, the choice is shown on the board
 choice_board()
 
-
-#Clear screen between games:
+#To clear screen between games:
 print(\n*100)
