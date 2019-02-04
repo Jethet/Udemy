@@ -20,9 +20,10 @@ class Account:
     def account_details(self):
         print("Account name: {}\nAccount capital: {}".format(self.name, self.capital))
 
-account1 = Account('John', 100)
 
+account1 = Account('John', '$100')
 
 #print(type(account1))
 #print(account1.name)
+#print(account1.capital)
 #account1.account_details()
