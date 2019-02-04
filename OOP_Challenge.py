@@ -17,5 +17,12 @@ class Account:
         self.name = name
         self.capital = capital
 
+    def account_details(self):
+        print("Account name: {}\nAccount capital: {}".format(self.name, self.capital))
+
 account1 = Account('John', 100)
-print(type(account1))
+
+
+#print(type(account1))
+#print(account1.name)
+#account1.account_details()
