@@ -20,10 +20,24 @@ class Account:
     def account_details(self):
         print("Account name: {}\nAccount capital: {}".format(self.name, self.capital))
 
+    def account_deposit(self):
+        print("Deposit accepted.")
+        return self.capital + deposit
 
-account1 = Account('John', '$100')
+    def account_withdrawal(self):
+        if withdrawal > self.capital:
+            print("Funds unavailable.")
+        else:
+            print("Withdrawal accepted.")
+            return self.capital - withdrawal
 
+
+account1 = Account('John', 100)
+deposit = 150
+withdrawal = 300
 #print(type(account1))
 #print(account1.name)
-#print(account1.capital)
+print(account1.capital)
 #account1.account_details()
+print(account1.account_deposit())
+print(account1.account_withdrawal())
