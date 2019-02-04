@@ -13,5 +13,9 @@ make sure the account can't be overdrawn.
 """
 class Account:
 
-    def __init__(self,account1):
-        self.account1 = account1
+    def __init__(self,name,capital):
+        self.name = name
+        self.capital = capital
+
+account1 = Account('John', 100)
+print(type(account1))
