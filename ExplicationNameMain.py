@@ -6,12 +6,20 @@ automatically if you run your script directly: this means with
    $python3 one.py   on the command line, Python will automatically assign
  __name__ to __main__ as follows:
   __name__ == "__main__"
-This means you can use an if statement:
+This means you can use an if statement: (this basically runs the script)
  if __name__ == "__main__":
                   .... (code)
 
 It means the .py file is being run directly because this evaluates to True.
 """
+
+def myfunc1():
+    pass
+
+def myfunc2():
+    pass
+    # etc.
+
 # With all functions and classes defined at level 0, you will see this
 # at the bottom of someone's code:
 
@@ -21,4 +29,4 @@ if __name__ == "__main__":
     myfunc3()
     # etc. etc.
 
-# This means that all code will be executed.
+# This means that all code will be executed. It basically means: run the script!
