@@ -6,4 +6,4 @@ for item in gencomp:
     print(item)
 
 # 'gencomp' iterates over a list to compare values to condition and
-# generates the values that meet the condition
+# generates the values that meet the condition, one after one.
