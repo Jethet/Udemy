@@ -10,3 +10,5 @@ def cost_tile(width,height,price):
     print('The total cost of the tiles is:', math.ceil(price*tiles))
 
 cost_tile(5,4,3.95)
+
+# WRITING AND TESTING THIS CODE TOOK ABOUT 45 MINUTES
