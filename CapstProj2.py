@@ -3,10 +3,9 @@
 # at a particular time.
 # mp3 file is called Digital Alarm Sound
 
-from playsound import playsound
 
 def alarm(time):
     if time == 2:
-        playsound()
+        print('\a')
 
 alarm(2)
