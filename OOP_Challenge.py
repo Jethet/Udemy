@@ -33,12 +33,12 @@ class Account:
         else:
             print("Funds unavailable")
 
-    def __str__():
+    def __str__(self):
         return f"Owner: {self.name}\nBalance: {self.capital}"
 
 
 account1 = Account('John', 100)
-print(type(account1))
+print(account1)
 print(account1.name)
 print(account1.capital)
 account1.account_details()
