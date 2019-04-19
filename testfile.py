@@ -1,5 +1,9 @@
 import re
 
 test_text = "This library app allows you to add a book, to search for an author or title,"
-pattern = ['pa*', 'pa+']
-print(re.search(pattern, test_text))
+patterns = ('pa*', 'pa+', 'aa?', 'da?')
+
+for pattern in patterns:
+    print(re.findall(pattern,test_text))
+
+print(re.findall('[^,]+', test_text))
